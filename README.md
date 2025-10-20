@@ -28,7 +28,7 @@ This repository contains the complete design and implementation of the **u-4UGI 
 - Control unit for instruction sequencing and execution  
 - Example machine code program for testing processor functionality  
 
-
+---
 ## Team members:
 https://github.com/mojtabaKhaleghi12
 
