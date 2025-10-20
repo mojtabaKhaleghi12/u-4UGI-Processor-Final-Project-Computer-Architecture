@@ -1,0 +1,10 @@
+AR control_unit behavioral C:/Users/sa/ise/CA_pro/Control/Control_unit.vhd sub00/vhpl03 1720383304
+EN jump NULL C:/Users/sa/ise/CA_pro/jump/jump.vhd sub00/vhpl06 1720383307
+AR topmodule behavioral C:/Users/sa/ise/CA_pro/Top_Moudel_/TopModule.vhd sub00/vhpl09 1720383310
+EN memory NULL C:/Users/sa/ise/CA_pro/MemorayCA/Memory.vhd sub00/vhpl04 1720383305
+AR memory behavioral C:/Users/sa/ise/CA_pro/MemorayCA/Memory.vhd sub00/vhpl05 1720383306
+AR jump behavioral C:/Users/sa/ise/CA_pro/jump/jump.vhd sub00/vhpl07 1720383308
+EN topmodule NULL C:/Users/sa/ise/CA_pro/Top_Moudel_/TopModule.vhd sub00/vhpl08 1720383309
+AR alu behavioral C:/Users/sa/ise/CA_pro/pro1/rr.vhd sub00/vhpl01 1720383302
+EN control_unit NULL C:/Users/sa/ise/CA_pro/Control/Control_unit.vhd sub00/vhpl02 1720383303
+EN alu NULL C:/Users/sa/ise/CA_pro/pro1/rr.vhd sub00/vhpl00 1720383301

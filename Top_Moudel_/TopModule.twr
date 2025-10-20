@@ -1,0 +1,461 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf
+
+Design file:              TopModule.ncd
+Physical constraint file: TopModule.pcf
+Device,package,speed:     xc3s1500,fg320,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+---------------+------------+------------+------------------+--------+
+               |Max Setup to|Max Hold to |                  | Clock  |
+Source         | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+---------------+------------+------------+------------------+--------+
+a<0>           |   12.904(R)|   -5.395(R)|clk_BUFGP         |   0.000|
+a<1>           |   12.399(R)|   -4.551(R)|clk_BUFGP         |   0.000|
+a<2>           |   12.232(R)|   -4.752(R)|clk_BUFGP         |   0.000|
+a<3>           |   12.981(R)|   -4.905(R)|clk_BUFGP         |   0.000|
+a<4>           |   12.743(R)|   -4.871(R)|clk_BUFGP         |   0.000|
+a<5>           |   11.660(R)|   -4.775(R)|clk_BUFGP         |   0.000|
+a<6>           |   12.822(R)|   -5.087(R)|clk_BUFGP         |   0.000|
+a<7>           |   13.763(R)|   -6.861(R)|clk_BUFGP         |   0.000|
+addr<0>        |   18.013(R)|   -3.606(R)|clk_BUFGP         |   0.000|
+addr<1>        |   16.297(R)|   -2.093(R)|clk_BUFGP         |   0.000|
+addr<2>        |   21.705(R)|   -0.657(R)|clk_BUFGP         |   0.000|
+addr<3>        |   15.172(R)|   -0.797(R)|clk_BUFGP         |   0.000|
+addr<4>        |   19.086(R)|   -2.636(R)|clk_BUFGP         |   0.000|
+addr<5>        |   16.776(R)|   -2.218(R)|clk_BUFGP         |   0.000|
+addr<6>        |   18.529(R)|   -1.218(R)|clk_BUFGP         |   0.000|
+addr<7>        |   15.628(R)|   -1.186(R)|clk_BUFGP         |   0.000|
+addr<8>        |   15.805(R)|   -2.195(R)|clk_BUFGP         |   0.000|
+b<0>           |   12.689(R)|   -4.459(R)|clk_BUFGP         |   0.000|
+b<1>           |   12.449(R)|   -5.162(R)|clk_BUFGP         |   0.000|
+b<2>           |   12.366(R)|   -4.460(R)|clk_BUFGP         |   0.000|
+b<3>           |   12.239(R)|   -4.464(R)|clk_BUFGP         |   0.000|
+b<4>           |   11.959(R)|   -4.675(R)|clk_BUFGP         |   0.000|
+b<5>           |   11.579(R)|   -4.234(R)|clk_BUFGP         |   0.000|
+b<6>           |   11.032(R)|   -4.179(R)|clk_BUFGP         |   0.000|
+b<7>           |   10.731(R)|   -4.779(R)|clk_BUFGP         |   0.000|
+data_in<0>     |   15.429(R)|    0.408(R)|clk_BUFGP         |   0.000|
+data_in<1>     |   13.109(R)|    0.419(R)|clk_BUFGP         |   0.000|
+data_in<2>     |   10.278(R)|    0.356(R)|clk_BUFGP         |   0.000|
+data_in<3>     |   10.700(R)|    0.392(R)|clk_BUFGP         |   0.000|
+data_in<4>     |    9.574(R)|    0.574(R)|clk_BUFGP         |   0.000|
+data_in<5>     |    9.458(R)|    0.669(R)|clk_BUFGP         |   0.000|
+data_in<6>     |   12.036(R)|    0.230(R)|clk_BUFGP         |   0.000|
+data_in<7>     |   10.531(R)|    0.063(R)|clk_BUFGP         |   0.000|
+instruction<0> |   13.596(R)|    0.080(R)|clk_BUFGP         |   0.000|
+instruction<1> |   12.180(R)|   -0.658(R)|clk_BUFGP         |   0.000|
+instruction<2> |   11.615(R)|   -0.295(R)|clk_BUFGP         |   0.000|
+instruction<3> |   11.345(R)|   -0.714(R)|clk_BUFGP         |   0.000|
+instruction<4> |    2.482(R)|    0.010(R)|clk_BUFGP         |   0.000|
+instruction<5> |    2.556(R)|   -0.311(R)|clk_BUFGP         |   0.000|
+instruction<6> |    2.145(R)|   -0.380(R)|clk_BUFGP         |   0.000|
+instruction<7> |    2.068(R)|   -0.607(R)|clk_BUFGP         |   0.000|
+instruction<12>|    2.703(R)|   -0.067(R)|clk_BUFGP         |   0.000|
+instruction<13>|    2.593(R)|   -0.074(R)|clk_BUFGP         |   0.000|
+instruction<14>|    2.542(R)|   -0.075(R)|clk_BUFGP         |   0.000|
+instruction<15>|    2.385(R)|    0.314(R)|clk_BUFGP         |   0.000|
+opcode<0>      |   12.065(R)|   -3.547(R)|clk_BUFGP         |   0.000|
+opcode<1>      |   11.748(R)|   -2.836(R)|clk_BUFGP         |   0.000|
+opcode<2>      |   11.646(R)|   -3.208(R)|clk_BUFGP         |   0.000|
+opcode<3>      |   11.602(R)|   -3.236(R)|clk_BUFGP         |   0.000|
+write_en       |   16.558(R)|   -1.955(R)|clk_BUFGP         |   0.000|
+---------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+data_out<0> |   17.903(R)|clk_BUFGP         |   0.000|
+data_out<1> |   17.691(R)|clk_BUFGP         |   0.000|
+data_out<2> |   17.779(R)|clk_BUFGP         |   0.000|
+data_out<3> |   17.678(R)|clk_BUFGP         |   0.000|
+data_out<4> |   17.364(R)|clk_BUFGP         |   0.000|
+data_out<5> |   17.752(R)|clk_BUFGP         |   0.000|
+data_out<6> |   16.545(R)|clk_BUFGP         |   0.000|
+data_out<7> |   16.747(R)|clk_BUFGP         |   0.000|
+pc<0>       |    9.244(R)|clk_BUFGP         |   0.000|
+pc<1>       |    7.674(R)|clk_BUFGP         |   0.000|
+pc<2>       |    8.816(R)|clk_BUFGP         |   0.000|
+pc<3>       |    8.476(R)|clk_BUFGP         |   0.000|
+pc<4>       |    8.296(R)|clk_BUFGP         |   0.000|
+pc<5>       |    7.344(R)|clk_BUFGP         |   0.000|
+pc<6>       |    8.387(R)|clk_BUFGP         |   0.000|
+pc<7>       |    7.344(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.218|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |result<0>      |   11.730|
+a<0>           |result<1>      |   13.241|
+a<0>           |result<2>      |   12.531|
+a<0>           |result<3>      |   12.719|
+a<0>           |result<4>      |   12.836|
+a<0>           |result<5>      |   11.293|
+a<0>           |result<6>      |   12.622|
+a<0>           |result<7>      |   13.032|
+a<0>           |sign           |   13.033|
+a<0>           |zero           |   15.395|
+a<1>           |result<0>      |   10.469|
+a<1>           |result<1>      |   12.736|
+a<1>           |result<2>      |   12.536|
+a<1>           |result<3>      |   12.621|
+a<1>           |result<4>      |   13.104|
+a<1>           |result<5>      |   11.269|
+a<1>           |result<6>      |   12.786|
+a<1>           |result<7>      |   13.388|
+a<1>           |sign           |   13.389|
+a<1>           |zero           |   14.890|
+a<2>           |result<0>      |   10.510|
+a<2>           |result<1>      |   11.331|
+a<2>           |result<2>      |   12.359|
+a<2>           |result<3>      |   12.438|
+a<2>           |result<4>      |   13.272|
+a<2>           |result<5>      |   11.850|
+a<2>           |result<6>      |   13.179|
+a<2>           |result<7>      |   13.339|
+a<2>           |sign           |   13.340|
+a<2>           |zero           |   14.723|
+a<3>           |result<0>      |   10.528|
+a<3>           |result<1>      |   11.349|
+a<3>           |result<2>      |   11.066|
+a<3>           |result<3>      |   13.328|
+a<3>           |result<4>      |   14.021|
+a<3>           |result<5>      |   12.565|
+a<3>           |result<6>      |   13.551|
+a<3>           |result<7>      |   14.025|
+a<3>           |sign           |   14.026|
+a<3>           |zero           |   15.472|
+a<4>           |result<0>      |   10.088|
+a<4>           |result<1>      |   10.909|
+a<4>           |result<2>      |   10.626|
+a<4>           |result<3>      |   10.074|
+a<4>           |result<4>      |   13.200|
+a<4>           |result<5>      |   12.011|
+a<4>           |result<6>      |   13.530|
+a<4>           |result<7>      |   13.933|
+a<4>           |sign           |   13.934|
+a<4>           |zero           |   15.234|
+a<5>           |result<0>      |   10.309|
+a<5>           |result<1>      |   11.130|
+a<5>           |result<2>      |   10.847|
+a<5>           |result<3>      |   10.295|
+a<5>           |result<4>      |   11.695|
+a<5>           |result<5>      |   10.586|
+a<5>           |result<6>      |   12.454|
+a<5>           |result<7>      |   12.850|
+a<5>           |sign           |   12.851|
+a<5>           |zero           |   14.151|
+a<6>           |result<0>      |   10.936|
+a<6>           |result<1>      |   11.757|
+a<6>           |result<2>      |   11.474|
+a<6>           |result<3>      |   10.922|
+a<6>           |result<4>      |   12.322|
+a<6>           |result<5>      |   11.213|
+a<6>           |result<6>      |   12.902|
+a<6>           |result<7>      |   14.012|
+a<6>           |sign           |   14.013|
+a<6>           |zero           |   15.313|
+a<7>           |result<0>      |   12.918|
+a<7>           |result<1>      |   13.739|
+a<7>           |result<2>      |   13.456|
+a<7>           |result<3>      |   12.904|
+a<7>           |result<4>      |   14.304|
+a<7>           |result<5>      |   13.195|
+a<7>           |result<6>      |   14.220|
+a<7>           |result<7>      |   14.953|
+a<7>           |sign           |   14.954|
+a<7>           |zero           |   16.254|
+addr<0>        |data_out<0>    |   26.334|
+addr<0>        |data_out<1>    |   26.895|
+addr<0>        |data_out<2>    |   26.230|
+addr<0>        |data_out<3>    |   26.363|
+addr<0>        |data_out<4>    |   26.492|
+addr<0>        |data_out<5>    |   27.101|
+addr<0>        |data_out<6>    |   27.132|
+addr<0>        |data_out<7>    |   26.118|
+addr<1>        |data_out<0>    |   33.578|
+addr<1>        |data_out<1>    |   34.785|
+addr<1>        |data_out<2>    |   34.797|
+addr<1>        |data_out<3>    |   34.551|
+addr<1>        |data_out<4>    |   33.860|
+addr<1>        |data_out<5>    |   33.360|
+addr<1>        |data_out<6>    |   33.009|
+addr<1>        |data_out<7>    |   32.654|
+addr<2>        |data_out<0>    |   37.202|
+addr<2>        |data_out<1>    |   37.794|
+addr<2>        |data_out<2>    |   36.696|
+addr<2>        |data_out<3>    |   36.426|
+addr<2>        |data_out<4>    |   37.116|
+addr<2>        |data_out<5>    |   36.943|
+addr<2>        |data_out<6>    |   35.595|
+addr<2>        |data_out<7>    |   35.470|
+addr<3>        |data_out<0>    |   26.814|
+addr<3>        |data_out<1>    |   27.436|
+addr<3>        |data_out<2>    |   26.751|
+addr<3>        |data_out<3>    |   26.158|
+addr<3>        |data_out<4>    |   25.983|
+addr<3>        |data_out<5>    |   26.525|
+addr<3>        |data_out<6>    |   24.539|
+addr<3>        |data_out<7>    |   24.355|
+addr<4>        |data_out<0>    |   24.128|
+addr<4>        |data_out<1>    |   24.905|
+addr<4>        |data_out<2>    |   25.729|
+addr<4>        |data_out<3>    |   25.694|
+addr<4>        |data_out<4>    |   23.780|
+addr<4>        |data_out<5>    |   24.032|
+addr<4>        |data_out<6>    |   21.544|
+addr<4>        |data_out<7>    |   22.162|
+addr<5>        |data_out<0>    |   11.903|
+addr<5>        |data_out<1>    |   13.288|
+addr<5>        |data_out<2>    |   12.583|
+addr<5>        |data_out<3>    |   13.225|
+addr<5>        |data_out<4>    |   12.657|
+addr<5>        |data_out<5>    |   12.893|
+addr<5>        |data_out<6>    |   13.010|
+addr<5>        |data_out<7>    |   12.809|
+addr<6>        |data_out<0>    |   13.619|
+addr<6>        |data_out<1>    |   14.664|
+addr<6>        |data_out<2>    |   12.679|
+addr<6>        |data_out<3>    |   12.911|
+addr<6>        |data_out<4>    |   13.374|
+addr<6>        |data_out<5>    |   13.201|
+addr<6>        |data_out<6>    |   13.933|
+addr<6>        |data_out<7>    |   13.942|
+addr<7>        |data_out<0>    |   13.118|
+addr<7>        |data_out<1>    |   14.162|
+addr<7>        |data_out<2>    |   12.646|
+addr<7>        |data_out<3>    |   12.603|
+addr<7>        |data_out<4>    |   12.477|
+addr<7>        |data_out<5>    |   13.165|
+addr<7>        |data_out<6>    |   12.789|
+addr<7>        |data_out<7>    |   13.053|
+addr<8>        |data_out<0>    |   12.497|
+addr<8>        |data_out<1>    |   13.553|
+addr<8>        |data_out<2>    |   12.122|
+addr<8>        |data_out<3>    |   12.656|
+addr<8>        |data_out<4>    |   12.526|
+addr<8>        |data_out<5>    |   12.334|
+addr<8>        |data_out<6>    |   13.146|
+addr<8>        |data_out<7>    |   13.410|
+b<0>           |result<0>      |   10.525|
+b<0>           |result<1>      |   13.026|
+b<0>           |result<2>      |   12.440|
+b<0>           |result<3>      |   12.525|
+b<0>           |result<4>      |   13.008|
+b<0>           |result<5>      |   11.173|
+b<0>           |result<6>      |   12.690|
+b<0>           |result<7>      |   13.292|
+b<0>           |sign           |   13.293|
+b<0>           |zero           |   15.180|
+b<1>           |result<0>      |   10.225|
+b<1>           |result<1>      |   12.786|
+b<1>           |result<2>      |   12.692|
+b<1>           |result<3>      |   12.671|
+b<1>           |result<4>      |   13.154|
+b<1>           |result<5>      |   11.454|
+b<1>           |result<6>      |   12.836|
+b<1>           |result<7>      |   13.438|
+b<1>           |sign           |   13.439|
+b<1>           |zero           |   14.940|
+b<2>           |result<0>      |   10.340|
+b<2>           |result<1>      |   11.161|
+b<2>           |result<2>      |   11.968|
+b<2>           |result<3>      |   12.592|
+b<2>           |result<4>      |   13.272|
+b<2>           |result<5>      |   11.437|
+b<2>           |result<6>      |   12.954|
+b<2>           |result<7>      |   13.556|
+b<2>           |sign           |   13.557|
+b<2>           |zero           |   14.857|
+b<3>           |result<0>      |   10.215|
+b<3>           |result<1>      |   11.036|
+b<3>           |result<2>      |   10.753|
+b<3>           |result<3>      |   12.079|
+b<3>           |result<4>      |   13.145|
+b<3>           |result<5>      |   11.310|
+b<3>           |result<6>      |   12.827|
+b<3>           |result<7>      |   13.429|
+b<3>           |sign           |   13.430|
+b<3>           |zero           |   14.730|
+b<4>           |result<0>      |    9.530|
+b<4>           |result<1>      |   10.351|
+b<4>           |result<2>      |   10.068|
+b<4>           |result<3>      |    9.516|
+b<4>           |result<4>      |   12.129|
+b<4>           |result<5>      |   10.998|
+b<4>           |result<6>      |   12.547|
+b<4>           |result<7>      |   13.149|
+b<4>           |sign           |   13.150|
+b<4>           |zero           |   14.450|
+b<5>           |result<0>      |    9.375|
+b<5>           |result<1>      |   10.196|
+b<5>           |result<2>      |    9.913|
+b<5>           |result<3>      |    9.361|
+b<5>           |result<4>      |   10.761|
+b<5>           |result<5>      |   10.071|
+b<5>           |result<6>      |   12.167|
+b<5>           |result<7>      |   12.769|
+b<5>           |sign           |   12.770|
+b<5>           |zero           |   14.070|
+b<6>           |result<0>      |    8.870|
+b<6>           |result<1>      |    9.691|
+b<6>           |result<2>      |    9.408|
+b<6>           |result<3>      |    8.856|
+b<6>           |result<4>      |   10.256|
+b<6>           |result<5>      |    9.147|
+b<6>           |result<6>      |   11.081|
+b<6>           |result<7>      |   12.222|
+b<6>           |sign           |   12.223|
+b<6>           |zero           |   13.523|
+b<7>           |result<0>      |    9.886|
+b<7>           |result<1>      |   10.707|
+b<7>           |result<2>      |   10.424|
+b<7>           |result<3>      |    9.872|
+b<7>           |result<4>      |   11.272|
+b<7>           |result<5>      |   10.163|
+b<7>           |result<6>      |   11.188|
+b<7>           |result<7>      |   11.921|
+b<7>           |sign           |   11.922|
+b<7>           |zero           |   13.222|
+instruction<0> |result<0>      |   11.703|
+instruction<0> |result<1>      |   13.933|
+instruction<0> |result<2>      |   13.006|
+instruction<0> |result<3>      |   13.411|
+instruction<0> |result<4>      |   13.528|
+instruction<0> |result<5>      |   11.858|
+instruction<0> |result<6>      |   12.957|
+instruction<0> |result<7>      |   13.532|
+instruction<0> |sign           |   13.533|
+instruction<0> |zero           |   16.087|
+instruction<1> |result<1>      |   12.517|
+instruction<1> |result<2>      |   12.203|
+instruction<1> |result<3>      |   12.441|
+instruction<1> |result<4>      |   12.498|
+instruction<1> |result<5>      |   11.303|
+instruction<1> |result<6>      |   12.289|
+instruction<1> |result<7>      |   12.673|
+instruction<1> |sign           |   12.674|
+instruction<1> |zero           |   14.671|
+instruction<2> |result<2>      |   11.185|
+instruction<2> |result<3>      |   12.129|
+instruction<2> |result<4>      |   12.436|
+instruction<2> |result<5>      |   10.679|
+instruction<2> |result<6>      |   11.865|
+instruction<2> |result<7>      |   12.440|
+instruction<2> |sign           |   12.441|
+instruction<2> |zero           |   14.106|
+instruction<3> |result<3>      |   11.692|
+instruction<3> |result<4>      |   12.385|
+instruction<3> |result<5>      |   10.830|
+instruction<3> |result<6>      |   11.816|
+instruction<3> |result<7>      |   12.389|
+instruction<3> |sign           |   12.390|
+instruction<3> |zero           |   13.836|
+opcode<0>      |result<0>      |   10.602|
+opcode<0>      |result<1>      |   12.402|
+opcode<0>      |result<2>      |   11.541|
+opcode<0>      |result<3>      |   11.699|
+opcode<0>      |result<4>      |   12.496|
+opcode<0>      |result<5>      |   11.127|
+opcode<0>      |result<6>      |   12.540|
+opcode<0>      |result<7>      |   12.622|
+opcode<0>      |sign           |   12.623|
+opcode<0>      |zero           |   14.556|
+opcode<1>      |result<0>      |   10.256|
+opcode<1>      |result<1>      |   12.085|
+opcode<1>      |result<2>      |   11.087|
+opcode<1>      |result<3>      |   11.511|
+opcode<1>      |result<4>      |   11.725|
+opcode<1>      |result<5>      |   10.906|
+opcode<1>      |result<6>      |   12.363|
+opcode<1>      |result<7>      |   12.135|
+opcode<1>      |sign           |   12.136|
+opcode<1>      |zero           |   14.239|
+opcode<2>      |result<0>      |   10.423|
+opcode<2>      |result<1>      |   11.983|
+opcode<2>      |result<2>      |   11.254|
+opcode<2>      |result<3>      |   11.720|
+opcode<2>      |result<4>      |   12.077|
+opcode<2>      |result<5>      |   10.757|
+opcode<2>      |result<6>      |   12.214|
+opcode<2>      |result<7>      |   12.057|
+opcode<2>      |sign           |   12.058|
+opcode<2>      |zero           |   14.137|
+opcode<3>      |result<0>      |   10.221|
+opcode<3>      |result<1>      |   11.939|
+opcode<3>      |result<2>      |   11.052|
+opcode<3>      |result<3>      |   11.476|
+opcode<3>      |result<4>      |   12.033|
+opcode<3>      |result<5>      |   10.776|
+opcode<3>      |result<6>      |   12.233|
+opcode<3>      |result<7>      |   12.013|
+opcode<3>      |sign           |   12.014|
+opcode<3>      |zero           |   14.093|
+read_en        |data_out<0>    |    6.304|
+read_en        |data_out<1>    |    6.711|
+read_en        |data_out<2>    |    6.587|
+read_en        |data_out<3>    |    7.204|
+read_en        |data_out<4>    |    7.311|
+read_en        |data_out<5>    |    6.892|
+read_en        |data_out<6>    |    6.904|
+read_en        |data_out<7>    |    6.292|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Jul 07 23:46:22 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4588 MB
+
+
+

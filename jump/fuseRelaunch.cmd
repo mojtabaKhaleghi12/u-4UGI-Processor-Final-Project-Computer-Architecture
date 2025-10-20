@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/sa/ise/CA_pro/jump/tb_jump_isim_beh.exe" -prj "C:/Users/sa/ise/CA_pro/jump/tb_jump_beh.prj" "work.tb_jump" 

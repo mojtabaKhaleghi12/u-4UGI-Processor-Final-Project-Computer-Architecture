@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sa\ise\CA_pro\Control\Control_unit.ncd
+OUTFILE=C:\Users\sa\ise\CA_pro\Control\Control_unit.bit
+FAMILY=Spartan3
+PART=xc3s50-5pq208
+WORKINGDIR=C:\Users\sa\ise\CA_pro\Control
+LICENSE=WebPack
+USER_INFO=__0_0_0

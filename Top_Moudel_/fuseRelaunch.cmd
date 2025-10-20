@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/sa/ise/CA_pro/Top_Moudel_/TopModule_tb_isim_beh.exe" -prj "C:/Users/sa/ise/CA_pro/Top_Moudel_/TopModule_tb_beh.prj" "work.TopModule_tb" 

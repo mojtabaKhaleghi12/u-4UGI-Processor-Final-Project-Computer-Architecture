@@ -1,0 +1,5 @@
+vhdl work "../pro1/rr.vhd"
+vhdl work "../MemorayCA/Memory.vhd"
+vhdl work "../jump/jump.vhd"
+vhdl work "../Control/Control_unit.vhd"
+vhdl work "TopModule.vhd"

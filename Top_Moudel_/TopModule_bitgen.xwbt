@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sa\ise\CA_pro\Top_Moudel_\TopModule.ncd
+OUTFILE=C:\Users\sa\ise\CA_pro\Top_Moudel_\TopModule.bit
+FAMILY=Spartan3
+PART=xc3s1500-5fg320
+WORKINGDIR=C:\Users\sa\ise\CA_pro\Top_Moudel_
+LICENSE=WebPack
+USER_INFO=__0_0_0

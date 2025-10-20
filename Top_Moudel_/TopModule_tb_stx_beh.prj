@@ -1,0 +1,6 @@
+vhdl isim_temp "../pro1/rr.vhd"
+vhdl isim_temp "../MemorayCA/Memory.vhd"
+vhdl isim_temp "../jump/jump.vhd"
+vhdl isim_temp "../Control/Control_unit.vhd"
+vhdl isim_temp "TopModule.vhd"
+vhdl isim_temp "TopModule_tb.vhd"

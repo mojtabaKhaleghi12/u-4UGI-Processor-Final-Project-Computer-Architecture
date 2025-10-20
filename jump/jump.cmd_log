@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/jump/jump.xst" -ofn "C:/Users/vboxuser/Desktop/ise/jump/jump.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 jump.ngc jump.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o jump_map.ncd jump.ngd jump.pcf 
+par -w -intstyle ise -ol high -t 1 jump_map.ncd jump.ncd jump.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml jump.twx jump.ncd -o jump.twr jump.pcf 
+bitgen -intstyle ise -f jump.ut jump.ncd 
+bitgen -intstyle ise -f jump.ut jump.ncd 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/jump/jump.xst" -ofn "C:/Users/vboxuser/Desktop/ise/jump/jump.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 jump.ngc jump.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o jump_map.ncd jump.ngd jump.pcf 
+par -w -intstyle ise -ol high -t 1 jump_map.ncd jump.ncd jump.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml jump.twx jump.ncd -o jump.twr jump.pcf 
+bitgen -intstyle ise -f jump.ut jump.ncd 
+xst -intstyle ise -ifn "C:/Users/sa/ise/CA_pro/jump/jump.xst" -ofn "C:/Users/sa/ise/CA_pro/jump/jump.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 jump.ngc jump.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o jump_map.ncd jump.ngd jump.pcf 
+par -w -intstyle ise -ol high -t 1 jump_map.ncd jump.ncd jump.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml jump.twx jump.ncd -o jump.twr jump.pcf 
+bitgen -intstyle ise -f jump.ut jump.ncd 
+xst -intstyle ise -ifn "C:/Users/sa/ise/CA_pro/jump/jump.xst" -ofn "C:/Users/sa/ise/CA_pro/jump/jump.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 jump.ngc jump.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o jump_map.ncd jump.ngd jump.pcf 
+par -w -intstyle ise -ol high -t 1 jump_map.ncd jump.ncd jump.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml jump.twx jump.ncd -o jump.twr jump.pcf 
+bitgen -intstyle ise -f jump.ut jump.ncd 

@@ -1,0 +1,5 @@
+work	"../Control/Control_unit.vhd"
+work	"../MemorayCA/Memory.vhd"
+work	"../jump/jump.vhd"
+work	"../pro1/rr.vhd"
+work	"TopModule.vhd"

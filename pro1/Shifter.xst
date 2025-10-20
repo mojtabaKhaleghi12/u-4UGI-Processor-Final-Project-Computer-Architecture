@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/sa/ise/ISE/pro1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/sa/ise/ISE/pro1/xst"
+elaborate
+-ifn Shifter.prj
+-ifmt mixed

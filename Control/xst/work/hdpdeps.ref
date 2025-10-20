@@ -1,0 +1,9 @@
+V3 5
+FL C:/Users/sa/ise/CA_pro/Control/Control_unit.vhd 2024/07/07.14:31:15 P.20131013
+EN work/Control_unit 1720350080 \
+      FL C:/Users/sa/ise/CA_pro/Control/Control_unit.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Control_unit/Behavioral 1720350081 \
+      FL C:/Users/sa/ise/CA_pro/Control/Control_unit.vhd EN work/Control_unit 1720350080
+FL C:/Users/sa/ise/ISE/Control/Control_unit.vhd 2024/07/07.12:07:42 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/Control/Control_unit.vhd 2024/06/12.01:51:48 P.20131013

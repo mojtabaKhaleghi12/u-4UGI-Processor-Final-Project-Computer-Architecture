@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/Control/Control_unit.xst" -ofn "C:/Users/vboxuser/Desktop/ise/Control/Control_unit.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/Control/Control_unit.xst" -ofn "C:/Users/vboxuser/Desktop/ise/Control/Control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 Control_unit.ngc Control_unit.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Control_unit_map.ncd Control_unit.ngd Control_unit.pcf 
+par -w -intstyle ise -ol high -t 1 Control_unit_map.ncd Control_unit.ncd Control_unit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control_unit.twx Control_unit.ncd -o Control_unit.twr Control_unit.pcf 
+bitgen -intstyle ise -f Control_unit.ut Control_unit.ncd 
+xst -intstyle ise -ifn "C:/Users/sa/ise/ISE/Control/Control_unit.xst" -ofn "C:/Users/sa/ise/ISE/Control/Control_unit.syr" 
+xst -intstyle ise -ifn "C:/Users/sa/ise/ISE/Control/Control_unit.xst" -ofn "C:/Users/sa/ise/ISE/Control/Control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 Control_unit.ngc Control_unit.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Control_unit_map.ncd Control_unit.ngd Control_unit.pcf 
+par -w -intstyle ise -ol high -t 1 Control_unit_map.ncd Control_unit.ncd Control_unit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control_unit.twx Control_unit.ncd -o Control_unit.twr Control_unit.pcf 
+bitgen -intstyle ise -f Control_unit.ut Control_unit.ncd 
+xst -intstyle ise -ifn "C:/Users/sa/ise/CA_pro/Control/Control_unit.xst" -ofn "C:/Users/sa/ise/CA_pro/Control/Control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 Control_unit.ngc Control_unit.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Control_unit_map.ncd Control_unit.ngd Control_unit.pcf 
+par -w -intstyle ise -ol high -t 1 Control_unit_map.ncd Control_unit.ncd Control_unit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control_unit.twx Control_unit.ncd -o Control_unit.twr Control_unit.pcf 
+bitgen -intstyle ise -f Control_unit.ut Control_unit.ncd 

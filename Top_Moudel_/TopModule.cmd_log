@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/sa/ise/CA_pro/Top_Moudel_/TopModule.xst" -ofn "C:/Users/sa/ise/CA_pro/Top_Moudel_/TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg320-5 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc3s1500-fg320-5 -cm area -ir off -pr off -c 100 -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -t 1 TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 

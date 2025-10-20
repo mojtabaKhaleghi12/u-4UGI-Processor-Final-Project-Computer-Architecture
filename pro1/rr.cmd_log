@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 rr.ngc rr.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o rr_map.ncd rr.ngd rr.pcf 
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/pro1/rr.xst" -ofn "C:/Users/vboxuser/Desktop/ise/pro1/rr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 rr.ngc rr.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o rr_map.ncd rr.ngd rr.pcf 
+par -w -intstyle ise -ol high -t 1 rr_map.ncd rr.ncd rr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rr.twx rr.ncd -o rr.twr rr.pcf 
+bitgen -intstyle ise -f rr.ut rr.ncd 
